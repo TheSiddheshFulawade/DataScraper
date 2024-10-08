@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "DataScraper",
+    "action": {
+      "default_popup": "index.html"
+    },
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": [
+      "https://www.zara.com/*",
+      "https://generativelanguage.googleapis.com/*"
+    ],
+    "icons": {
+      "32": "/CaptainAmerica.jpg"
+    }
+  }

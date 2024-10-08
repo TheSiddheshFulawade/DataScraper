@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 480px;
+  padding: 20px;
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+button {
+  background-color: #1a73e8;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #155db1;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: 500;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+td {
+  font-size: 14px;
+  color: #555;
+}
+
+td.image-cell, td.price-cell {
+  text-align: center;
+  vertical-align: middle;
+  height: 70px; 
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  background-color: #fff;
+  color: #1a73e8;
+  border: 1px solid #1a73e8;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.pagination button:hover {
+  background-color: #1a73e8;
+  color: #fff;
+}
+
+.product-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.price {
+  font-weight: 500;
+  color: #4caf50;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.no-image {
+  font-size: 12px;
+  color: #999;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (max-width: 500px) {
+  .App {
+    width: 100%;
+    padding: 10px;
+  }
+
+  th, td {
+    padding: 8px 10px;
+  }
+  
+  td.image-cell, td.price-cell {
+    height: 60px; 
+  }
+}
