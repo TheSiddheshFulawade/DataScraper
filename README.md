@@ -47,7 +47,7 @@ This Chrome extension scrapes product information from e-commerce websites, disp
 3. The extension will scrape product details such as the product name, price, and image.
 4. The scraped data will be displayed in a table format with pagination, showing 10 results at a time.
 5. You can click on the "Export to Excel" button to download an Excel file containing all the scraped data.
-6. The extension also allows searching for similar products using the Gemini API, which can be accessed by clicking on the "Search for Similar Products" button.
+6. The extension also allows searching for similar products using the Gemini API, which can be accessed by clicking on the "Similar Products" button.
 
 ## Testing the Extension:
 
